@@ -1,7 +1,7 @@
-Docker Wordpress Modify Page Title Demo
+Docker Wordpress Add Meta to Head Demo
 =======================================
 
-如何修改wordpress的title
+使用`add_action('wp_head', ...)`可以把自定义的内容（比如meta）输出到`<head>...</head>`中的某处。
 
 修改的文件： 
 - WordPress-5.3.2/test.php
